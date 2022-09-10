@@ -26,11 +26,11 @@ app.get('/api/token/:token_id', function(req, res) {
     'background_color': '87ceeb',
     'animation_url': `${person.glburl}`,
     'attributes': {
-      'Head': `${person.head}`,
+      'Gang': `${person.head}`,
       'Shirt': `${person.shi}`,
-      'Mohawk': `${person.m}`,
+      'Talent': `${person.m}`,
       'Eyes': `${person.eyes}`,
-      'Ears': `${person.ears}`,
+      'Personality': `${person.ears}`,
       'Headphones': `${person.hp}`,
       'Shoes': `${person.sho}`,
       'Headband': `${person.hb}`
