@@ -27,13 +27,13 @@ app.get('/api/token/:token_id', function(req, res) {
     'animation_url': `${person.glburl}`,
     'attributes': {
       'Gang': `${person.head}`,
-      'Shirt': `${person.shi}`,
+      'Style': `${person.shi}`,
       'Talent': `${person.m}`,
       'Eyes': `${person.eyes}`,
       'Personality': `${person.ears}`,
-      'Headphones': `${person.hp}`,
+      'Also a DJ': `${person.hp}`,
       'Shoes': `${person.sho}`,
-      'Headband': `${person.hb}`
+      'Special Headband': `${person.hb}`
     },
     'image': `${person.imgurl}`
   }
